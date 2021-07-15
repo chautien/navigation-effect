@@ -1,0 +1,33 @@
+@import url(./_reset.scss);
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  transition: 150ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+button,
+input {
+  font-family: "Poppins", sans-serif;
+}
+span {
+  display: inline-block;
+}
+
+// Varriables
+$blue: #0039c5;
+$azure: #f0ffff;
+// ******* NAV *******
+@import "./nav";
+
+.flex-start {
+  justify-content: flex-start;
+}
+.op-1 {
+  opacity: 1 !important;
+}
+.pl300 {
+  padding-left: 190px !important;
+}
